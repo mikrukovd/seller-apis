@@ -19,7 +19,7 @@ def get_product_list(page, campaign_id, access_token):
         access_token (str): Токен для доступа к API
 
     Returns:
-        dict: Ответ API
+        dict: Ответ API со списком товаров магазина
     """
     endpoint_url = "https://api.partner.market.yandex.ru/"
     headers = {
