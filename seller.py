@@ -20,10 +20,7 @@ def get_product_list(last_id, client_id, seller_token):
         seller_token (str): Токен продавца для авторизации API
 
     Returns:
-        dict: Ответ API в формате JSON с ключами:
-            - items (list): Список товаров
-            - total (int): Общее количество товаров
-            - last_id (str): Идентификатор последнего полученного элемента
+        dict: Ответ API со списком товаров магазина
     """
 
     url = "https://api-seller.ozon.ru/v2/product/list"
